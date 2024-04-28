@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300;400;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#nav-bar{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+}
+#small-screen{
+    display: none;
+}
+#nav-bar a{
+    padding-right: 20px;
+}
+#nav-bar ul li{
+    list-style-type: none;
+    padding-right: 15px;
+}
+#nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+#nav-bar #search-box button{
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 25px;
+    width: 150px;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#nav-bar #small-screen{
+    display: none;
+}
+#nav-bar select{
+    display: none;
+    border: none;
+}
+#nav-bar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-bar div a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+#nav-bar div a i{
+    color: blue;
+}
+#nav-bar div #Theme i{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#nav-bar div #Sign-up,#Log-in{
+    background-color: rgb(31, 124, 31);
+    border: 1px solid black;
+    border-radius: 40px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+}
+#nav-bar div #Sign-up{
+    margin-left: 50px;
+    position: relative;
+    left: 30px;
+}
+
+#nav-bar div #Log-in{
+    background-color: gainsboro;
+    color: #000;
+}
+
+
+/* main contents */
+section{
+    position: sticky;
+    top: 54px;
+    z-index: 2;
+}
+
+
+#nav-bar-secondary{
+    background-color: black;
+}
+#nav-bar-secondary ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#nav-bar-secondary ul{
+    display: flex;
+    list-style-type: none;
+}
+#nav-bar-secondary ul li{
+    margin-left: 30px;
+}
+
+main #content{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    height: 500px;
+}
+
+#content h1{
+    font-size: 80px;
+    padding-top: 35px;
+}
+#content h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(215, 215, 93);
+}
+
+#content .search-box{
+    height: 50px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box button{
+    margin: auto;
+}
+.search-box p{
+    text-align: center;
+    margin-left: 5px;
+}
+#content a{
+    color: #fff;
+    font-size: 20px;
+}
+.search-box button{
+    background-color: green;
+    height: 50px;
+    width: 80px;
+    position: relative;
+    left: 35px;
+    border-radius: 0px 20px 20px 0px;
+    border-color: transparent;
+}
+
+.box{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    margin-left: 30px;
+    padding: 25px;
+    height: 400px;
+    width: 400px;
+    color: black;
+    background-color: rgb(156, 155, 155);
+}
+.box-1{
+    background-color: aquamarine;
+}
+.box-1 .HTML{
+    width: 50%;
+    text-align: center;
+}
+.box-1 .HTML button{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.box-2{
+    background-color: rgb(236, 219, 109);
+}
+.box-2 .CSS {
+    width: 50%;
+    text-align: center;
+}
+.box-2 .CSS button{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.box-3{
+    background-color: gray;
+}
+.box-3 .js{
+    width: 50%;
+    text-align: center;
+}
+.box-3 .js button{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.box-4{
+    background-color: whitesmoke;
+}
+.box-4 .Py{
+    width: 50%;
+    text-align: center;
+}
+.box-4 .Py button{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.box-5{
+    background-color: skyblue;
+}
+.box-5 .sql {
+    width: 50%;
+    text-align: center;
+}
+.box-5 .sql button{
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+.box h1{
+    font-size: 100px;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Py,.CSS,.HTML,.sql,.js{
+    display: flex;
+    flex-direction: column;
+}
+
+.Get-certified{
+    background-color: rgb(236, 174, 184);
+}
+
+.Get-certified:hover{
+    background-color: pink;
+}
+.Learn{
+    background-color: rgb(92, 216, 92);
+    color: #fff;
+}
+.Learn:hover{
+    background-color: rgb(5, 214, 5);
+}
+.Video{
+    background-color: rgb(209, 209, 40);
+}
+.Video:hover{
+    background-color: rgb(255, 255, 4);
+}
+.Ref{
+    background-color: #2c2b2b;
+    color:#fff;
+}
+.Ref:hover{
+    background-color: #000;
+}
+
+.code{
+    background-color: whitesmoke;
+    margin: 10px;
+    width: calc(100% - 40px);
+    padding: 10px;
+    height: 250px;
+    border-left-color: rgb(11, 126, 11);
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+.inner-box h5{
+    font-weight: 900;
+}
+
+.inner-box .Try{
+    background-color: rgb(29, 179, 29);
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.code p{
+    color: #2c2b2b;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.code p span{
+    color: rgb(19, 19, 147);
+}
+.code p .brown{
+    color: rgb(161, 78, 78);
+    font-weight: 700;
+}
+.code p .red{
+    color: rgb(195, 43, 43);
+}
+article{
+    background-color: #2c2b2b;
+}
+article .container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+article .container div{
+    height: 240px;
+    width: 500px;
+    margin-top: 10px;
+    margin: 50px;
+    text-align: center;
+} 
+.container .box-template-1{
+    background-color: pink;
+    font-size: 35px;
+}
+.container .box-template-2{
+    font-size: 35px;
+    background-color: rgb(199, 199, 57);
+}
+.container .box-template-3{
+    font-size: 35px;
+    background-color: white;
+}
+.container .box-template-4{
+    font-size: 35px;
+    background-color: rgb(191, 224, 237);
+}
+.container .box-template-5{
+    font-size: 35px;
+    background-color: skyblue;
+}
+.container .box-template-6{
+    font-size: 35px;
+    background-color: rgb(86, 83, 83);
+}
+.container div button{
+    background-color: rgb(28, 27, 27);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.container div h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.container div button:hover{
+    background-color: #000;
+}
+.container2{
+    display: flex;
+    padding: 20px;
+}
+.container2 div{
+    height: 120px;
+    width: 500px;
+    margin: 50px;
+    background-color: rgb(253, 253, 143);
+}
+
+.container2 .box-temp-1{
+    background-color: rgb(234, 155, 169);
+    text-align: center;
+}
+.container2 .box-temp-2 h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px;
+}
+.container2 .box-temp-1 h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.container3,.container4,.container5,.container6,.container9,.container8,.container7,.container10,.container11{
+    display: flex;
+    text-align: center;
+    
+}
+.container3 div{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    margin: 20px 60px;
+    align-items: center;
+    justify-content: center;
+}
+.container1 h3,.container2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.container4 div, .container9 div{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    margin: 20px 60px;
+}
+.container5 div, .container8 div{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    margin: 20px 60px;
+}
+.container6 div,.container7 div{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    margin: 20px 60px;
+}
+.container10 div,.container11 div{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    margin: 20px 60px;
+}
+
+div .sky{
+    background-color: rgb(119, 198, 230);
+}
+div .sky:hover{
+    background-color: rgb(113, 186, 215);
+}
+div .white{
+    background-color: #f4ebeb;
+}
+div .white:hover{
+    background-color: rgb(248, 248, 248);
+}
+div .pink{
+    background-color: rgb(234, 178, 187);
+}
+div .pink:hover{
+    background-color: rgb(209, 148, 158);
+}
+div.sky-light{
+    background-color: rgb(203, 228, 220);
+}
+div .sky-light:hover{
+    background-color: rgb(129, 190, 190);
+}
+div .yel{
+    background-color: rgb(223, 223, 116);
+}
+div .yel:hover{
+    background-color: rgb(160, 160, 61);
+}
+
+div div h3{
+    text-align:center;
+    margin: 40px;
+    font-weight: 500;
+}
+
+div div h3:hover{
+    font-weight: 700;
+}
